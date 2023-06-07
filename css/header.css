@@ -1,0 +1,44 @@
+header{
+    float: left;
+    width: 100%;
+    font-family: "NunitoSans-Bold", Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 20px 0;
+}
+
+header img{
+    width: 60px;
+    float: right;
+    
+}
+header img:hover{
+    cursor: pointer;
+}
+header img:hover .box2{
+    cursor: pointer;
+    display: block;
+}
+#mydiv{
+    float:right;
+    
+}
+header h1{
+    color: var(--primary-color);
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 2px 2px 5px #ccc;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    width: 20%;
+    height: 35%;
+    margin-top: 45px;
+    position: fixed;
+    right: 5%;
+    display: none;
+    background-color: white;
+    border: solid 1px var(--gray-color);
+}
